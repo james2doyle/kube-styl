@@ -1,0 +1,43 @@
+/*Blocks*/
+.blocks-2,
+.blocks-3,
+.blocks-4,
+.blocks-5,
+.blocks-6 {
+	padding-left: 0;
+	list-style: none;
+	margin-left: math(-var(gridGutterWidth)/(var(gridWidth)/100)*1%);
+	box-sizing: border-box;
+	clear: fix;
+}
+.blocks-2 > li,
+.blocks-3 > li,
+.blocks-4 > li,
+.blocks-5 > li,
+.blocks-6 > li {
+	height: auto;
+	float: left;
+	margin-bottom: math(var(baseLine)/var(em));
+	margin-left: math(var(gridGutterWidth)/(var(gridWidth)/100)*1%);
+	box-sizing: border-box;
+}
+
+.blocks-2 > li {
+	width: math(((var(gridWidth) - (var(gridGutterWidth) * 2)) / 2 / (var(gridWidth) / 100)) * 1%);
+}
+.blocks-3 > li {
+	width: math(((var(gridWidth) - (var(gridGutterWidth) * 3)) / 3 / (var(gridWidth) / 100)) * 1%);
+}
+.blocks-4 > li {
+	width: math(((var(gridWidth) - (var(gridGutterWidth) * 4)) / 4 / (var(gridWidth) / 100)) * 1%);
+}
+.blocks-5 > li {
+	width: math(((var(gridWidth) - (var(gridGutterWidth) * 5)) / 5 / (var(gridWidth) / 100)) * 1%);
+}
+.blocks-6 > li {
+	width: math(((var(gridWidth) - (var(gridGutterWidth) * 6)) / 6 / (var(gridWidth) / 100)) * 1%);
+}
+
+.block-first {
+	clear: both;
+}

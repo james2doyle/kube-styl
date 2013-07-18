@@ -1,0 +1,140 @@
+.gradient(@startColor: #555, @endColor: #333) {
+	background-color: mix(@startColor, @endColor, 60%);
+	background-image: -moz-linear-gradient(top, @startColor, @endColor); // FF 3.6+
+	background-image: -ms-linear-gradient(top, @startColor, @endColor); // IE10
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor)); // Safari 4+, Chrome 2+
+	background-image: -webkit-linear-gradient(top, @startColor, @endColor); // Safari 5.1+, Chrome 10+
+	background-image: -o-linear-gradient(top, @startColor, @endColor); // Opera 11.10
+	background-image: linear-gradient(top, @startColor, @endColor); // The standard
+	filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",@startColor,@endColor)); // IE9 and down
+}
+
+.selection(@r, @g, @b) {
+	::selection {
+		background: rgb(@r, @g, @b);
+	}
+	::-moz-selection {
+		background: rgb(@r, @g, @b);
+	}
+	img::selection {
+		background: transparent;
+	}
+	img::-moz-selection {
+		background: transparent;
+	}
+}
+
+.box-sizing(@box-model) {
+  -webkit-box-sizing: @box-model;
+     -moz-box-sizing: @box-model;
+          box-sizing: @box-model;
+}
+
+.border-top-radius(@radius) {
+	border-top-right-radius: @radius;
+	border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+	border-bottom-right-radius: @radius;
+	border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+	border-bottom-right-radius: @radius;
+	border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+	border-bottom-left-radius: @radius;
+	border-top-left-radius: @radius;
+}
+
+
+.transition(@transition) {
+  -webkit-transition: @transition;
+     -moz-transition: @transition;
+       -o-transition: @transition;
+          transition: @transition;
+}
+.transition-delay(@transition-delay) {
+  -webkit-transition-delay: @transition-delay;
+     -moz-transition-delay: @transition-delay;
+       -o-transition-delay: @transition-delay;
+          transition-delay: @transition-delay;
+}
+.transition-duration(@transition-duration) {
+  -webkit-transition-duration: @transition-duration;
+     -moz-transition-duration: @transition-duration;
+       -o-transition-duration: @transition-duration;
+          transition-duration: @transition-duration;
+}
+
+.opacity(@opacity: 100) {
+	filter: e(%("alpha(opacity=%d)", @opacity));
+	-moz-opacity: @opacity / 100;
+	opacity: @opacity / 100;
+}
+
+.placeholder(@color: @input-color-placeholder) {
+  &:-moz-placeholder            { color: @color; } // Firefox 4-18
+  &::-moz-placeholder           { color: @color; } // Firefox 19+
+  &:-ms-input-placeholder       { color: @color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: @color; padding: 2px; } // Safari and Chrome
+}
+
+.clearfixing() {
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
+
+// Colors
+@black-10: darken(#fff, 10%);
+@black-20: darken(#fff, 20%);
+@black-30: darken(#fff, 30%);
+@black-40: darken(#fff, 40%);
+@black-50: darken(#fff, 50%);
+@black-60: darken(#fff, 60%);
+@black-70: darken(#fff, 70%);
+@black-80: darken(#fff, 80%);
+@black-90: darken(#fff, 90%);
+
+// Retina
+.retina-image(@path, @w: auto, @h: auto) {
+  background-image: url(@path);
+  @at2x_path: ~`"@{path}".split('.').slice(0, "@{path}".split('.').length - 1).join(".") + "@2x" + "." + "@{path}".split('.')["@{path}".split('.').length - 1]`;
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    background-image: url(@at2x_path);
+    background-size: @w @h;
+  }
+}
+
+// Grid
+.block(@num) {
+	width: ((var(gridWidth) - (var(gridGutterWidth) * var(num))) / var(num) / (var(gridWidth) / 100)) * 1%;
+}
+
+.column(var(num)) {
+	width: ((var(gridWidth) - (var(gridGutterWidth) * (var(num) - 1))) / var(num) / (var(gridWidth) / 100)) * 1%;
+}
+
+.columns(var(factor), var(num)) {
+	width: (((var(gridWidth) - (var(gridGutterWidth) * (var(num) - 1))) / var(num) / (var(gridWidth) / 100)) * var(factor)) + ((var(gridGutterWidth) / (var(gridWidth) / 100)) * (var(factor) - 1)) * 1%;
+}
+
+.column-push(var(num)) {
+	left: (((var(gridWidth) - (var(gridGutterWidth) * (var(num) - 1))) / var(num) / (var(gridWidth) / 100)) + var(gridGutterWidth)/(var(gridWidth)/100)) * 1%;
+}
+
+.columns-push(var(factor), var(num)) {
+	left: math(((((var(gridWidth) - (var(gridGutterWidth) * (var(num) - 1))) / var(num) / (var(gridWidth) / 100)) * var(factor)) + ((var(gridGutterWidth) / (var(gridWidth) / 100)) * (var(factor) - 1)) + var(gridGutterWidth)/(var(gridWidth)/100)) * 1%);
+}

@@ -1,0 +1,172 @@
+.btn {
+	text-decoration: none;
+	color: var(colorBlack);
+	border-radius: 2px;
+	font-family: var(buttonFontFamily);
+	border: 1px solid darken(var(colorWhite), 20);
+	border-bottom-color: darken(var(colorWhite), 30);
+	line-height: 1;
+	padding: .7em 1.1em .6em 1.1em;
+	font-weight: 500;
+	font-size: .85em;
+	background-image: linear-gradient(top, darken(var(colorWhite), 1), darken(var(colorWhite), 12));
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+	box-shadow: none;
+}
+.btn:hover {
+	color: var(colorBlack);
+	opacity: 0.70;
+}
+.btn-black {
+	border-color: var(colorBlack);
+	background-image: linear-gradient(top, lighten(var(colorBlack), 30), var(colorBlack));
+}
+.btn-red {
+	border-color: darken(var(colorRed), 25);
+	border-bottom-color: darken(var(colorRed), 35);
+	background-image: linear-gradient(top, var(colorRed), darken(var(colorRed), 20));
+}
+.btn-orange {
+	border-color: darken(var(colorOrange), 15);
+	border-bottom-color: darken(var(colorOrange), 25);
+	background-image: linear-gradient(top, var(colorOrange), darken(var(colorOrange), 10));
+}
+.btn-green {
+	border-color: darken(var(colorGreen), 18);
+	border-bottom-color: darken(var(colorGreen), 28);
+	background-image: linear-gradient(top, var(colorGreen), darken(var(colorGreen), 15));
+}
+.btn-blue {
+	border-color: darken(var(colorBlue), 17);
+	border-bottom-color: darken(var(colorBlue), 27);
+	background-image: linear-gradient(top, var(colorBlue), darken(var(colorBlue), 10));
+}
+.btn-yellow {
+	border-color: darken(var(colorYellow), 20);
+	border-bottom-color: darken(var(colorYellow), 30);
+	background-image: linear-gradient(top, var(colorYellow), darken(var(colorYellow), 15));
+}
+.btn-black {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 1);
+}
+.btn-red,
+.btn-orange,
+.btn-green,
+.btn-blue,
+.btn-yellow {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.24);
+}
+.btn-black,
+.btn-red,
+.btn-orange,
+.btn-green,
+.btn-blue,
+.btn-yellow,
+.btn-black:hover,
+.btn-red:hover,
+.btn-orange:hover,
+.btn-green:hover,
+.btn-blue:hover,
+.btn-yellow:hover {
+	color: var(colorWhite);
+}
+.btn-black:hover,
+.btn-red:hover,
+.btn-orange:hover,
+.btn-green:hover,
+.btn-blue:hover,
+.btn-yellow:hover {
+	opacity: 0.75;
+}
+
+.btn-small {
+	font-size: .7em;
+}
+.btn-big {
+	font-size: 1.2em;
+	line-height: math(var(baseLine) / var(em));
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+.btn-round {
+	border-radius: 20px;
+}
+
+.btn-active,
+.btn-active:hover,
+.btn.disabled,
+.btn[disabled],
+.btn-disabled,
+.btn-disabled:hover {
+	opacity: 100;
+	background: darken(var(colorWhite), 18);
+	border: 1px solid darken(var(colorWhite), 30);
+	text-shadow: 0 1px 1px var(colorWhite);
+}
+.btn-active,
+.btn-active:hover {
+	color: #666;
+}
+.btn.disabled,
+.btn[disabled],
+.btn-disabled,
+.btn-disabled:hover {
+	color: #999;
+}
+
+.btn:focus .halflings,
+.btn:hover .halflings {
+	color: var(colorGrayDark);
+}
+.btn-disabled:hover .halflings {
+	color: #999;
+}
+
+.btn-active .halflings {
+	color: #555;
+}
+
+/* Group  */
+.btn-group {
+	display: inline-block;
+	margin-right: 2px;
+	clear: fix;
+	vertical-align: bottom;
+}
+.btn-group > .btn,
+.btn-group > input {
+	float: left;
+	border-radius: 0;
+	margin-left: -1px;
+}
+.btn-group > .btn:first-child {
+	border-radius: 4px 0 0 4px;
+}
+.btn-group > .btn:last-child {
+	border-radius: 0 4px 4px 0;
+}
+.btn-group > .btn.btn-round:first-child,
+.btn-group > .input-search:first-child {
+	border-radius: 15px 0 0 15px;
+}
+.btn-group > .btn.btn-round:last-child,
+.btn-group > .input-search:last-child {
+	border-radius: 0 15px 15px 0;
+}
+.btn-append,
+.btn-group .btn {
+	padding: 6px 1.1em 7px 1.1em;
+}
+
+/* Append  */
+.btn-append {
+	position: relative;
+	top: -1px;
+	margin-left: -2px;
+	border-radius:  0 4px 4px 0;
+}
+
+/* FF fix */
+@-moz-document url-prefix("http:") {
+	input[type=submit].btn::-moz-focus-inner, button.btn::-moz-focus-inner { border: 0; padding: 0; }
+}

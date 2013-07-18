@@ -1,0 +1,21 @@
+{
+  "name": "kube-styl",
+  "version": "1.0.0",
+  "author": "James Doyle james2doyle@gmail.com",
+  "description": "kube-styl",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-styl": "*",
+    "rework": "*",
+    "rework-vars": "*",
+    "rework-math": "*",
+    "rework-shade": "*",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-growl": "~0.1.5",
+    "grunt-shell": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}

@@ -1,0 +1,67 @@
+/*Tables*/
+tfoot th,
+tfoot td {
+	background-color: var(tfootBackgroundColor);
+}
+th,
+td {
+	border-bottom: var(cellBorder);
+	padding: 0.5em 0.8em;
+}
+table caption {
+	text-transform: uppercase;
+	padding: 0 1em;
+	color: var(colorGrayLight);
+	font-size: var(smallFontSize);
+}
+table.table-flat td,
+table.table-flat th {
+  border: none;
+  padding: 0;
+}
+table.table-simple td,
+table.table-simple th {
+  border: none;
+  padding-top: math((var(baseLine) / 2) / var(em));
+  padding-right: 0.7em;
+  padding-left: math((var(baseLine) / 2) / var(em));
+  padding-bottom: 0;
+}
+table.table-simple caption {
+	padding-left: 0;
+}
+table.table-bordered td,
+table.table-bordered th {
+  border: 1px solid #ddd;
+}
+table.table-stroked td,
+table.table-stroked th {
+  border-bottom: 1px solid #eee;
+}
+table.table-striped tbody tr:nth-child(odd) td {
+  background-color: var(colorStripedTable);
+}
+table.table-hovered tbody tr:hover td,
+table.table-hovered thead tr:hover th {
+	background-color: var(colorHoveredTable);
+}
+
+/* Responsive Tables */
+.table-container {
+	width: 100%;
+	overflow: auto;
+	margin-bottom: math(var(baseLine)/var(em));
+}
+.table-container table {
+	margin-bottom: 0;
+}
+.table-container::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 14px;
+	height: 14px;
+}
+.table-container::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	border: 3px solid var(colorWhite);
+	background-color: rgba(0, 0, 0, .3);
+}
