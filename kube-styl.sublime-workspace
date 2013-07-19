@@ -1,0 +1,830 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"colorGreyLight"
+			],
+			[
+				"table",
+				"var-tableBordered"
+			],
+			[
+				"inputPre",
+				"inputAppendPrependBorder"
+			],
+			[
+				"input",
+				"var-inputBorderColor"
+			],
+			[
+				"code",
+				"codeBackgroundColor"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"SECON",
+				"SECONDARY2"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fo",
+				"forEach"
+			],
+			[
+				"for",
+				"ffor	fast-for-loop"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"re",
+				"registerTask"
+			],
+			[
+				"drop",
+				"dropComplete"
+			],
+			[
+				"slider-",
+				"slider-container"
+			],
+			[
+				"fl",
+				"flexslider"
+			],
+			[
+				"slide",
+				"slider-container"
+			],
+			[
+				"inputB",
+				"var-inputBackground"
+			],
+			[
+				"conta",
+				"contact-widget"
+			],
+			[
+				"cont",
+				"contact-widget"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"displ",
+				"displayInline"
+			],
+			[
+				"dis",
+				"displayInline"
+			],
+			[
+				"sty",
+				"style-cfr"
+			],
+			[
+				"Tr",
+				"TrocchiRegular"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2030,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 584,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/dorework.js",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styl/01_variables.styl",
+			"settings":
+			{
+				"buffer_size": 2966,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.temp.css",
+			"settings":
+			{
+				"buffer_size": 42322,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Build Systems/markdown.sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"bash",
+				"Snippet: A starting point for bash scripts"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"start",
+				"Snippet: A starting point for bash scripts"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"autop",
+				"Autoprefix CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"mini ",
+				"Snippet: Mini html template"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"fetc",
+				"Fetch: Manage"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"clear",
+			"c",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/james2doyle/Downloads/kubeless/styl/18b_responsive-media.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/18a_responsive-utils.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/18c_responsive-grid.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/18d_responsive-blocks.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/18e_responsive-navs.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/18f_responsive-forms.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/17_blocks.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/16_grid.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/15_messages.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/14_navs.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/13_images.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/12_helpers.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/11_buttons.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/10_labels.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/09_colors.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/08_forms.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/07_lists.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/06_tables.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/05_code.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/04_typo.styl",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/partials/meta.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/layouts/default.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/modules/tutorials/views/view.php",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/modules/blog/view.php",
+		"/Users/james2doyle/Git/rework-mixins/lib/opacity.js",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/clearfix.out.css",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/clearfix.css",
+		"/Users/james2doyle/Git/rework-mixins/test/index.js",
+		"/Users/james2doyle/Git/rework-mixins/lib/clearfix.js",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/size.out.css",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/size.css",
+		"/Users/james2doyle/Git/rework-mixins/index.js",
+		"/Users/james2doyle/Downloads/kubeless/css/style.temp.css",
+		"/Users/james2doyle/Downloads/kubeless/css/dorework.js",
+		"/Users/james2doyle/Downloads/kubeless/node_modules/rework-vars/index.js",
+		"/Users/james2doyle/Downloads/kubeless/styl/ready.styl",
+		"/Users/james2doyle/Downloads/kubeless/styl/01_variables.styl",
+		"/Users/james2doyle/Downloads/kubeless/gruntfile.js",
+		"/Users/james2doyle/Downloads/kubeless/css/style.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/03_reset.styl",
+		"/Users/james2doyle/Downloads/kubeless/node_modules/rework-math/index.js",
+		"/Users/james2doyle/Downloads/kubeless/styl/ready.css",
+		"/Users/james2doyle/Desktop/kiosk.md",
+		"/Users/james2doyle/Downloads/kubeless/styl/01_variables.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/02_mixins.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/18b_responsive-media.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/18d_responsive-blocks.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/18e_responsive-navs.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/18f_responsive-forms.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/18c_responsive-grid.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/18a_responsive-utils.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/17_blocks.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/16_grid.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/15_messages.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/14_navs.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/04_typo.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/03_reset.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/13_images.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/06_tables.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/10_labels.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/11_buttons.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/12_helpers.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/09_colors.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/08_forms.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/05_code.css",
+		"/Users/james2doyle/Downloads/kubeless/styl/07_lists.css",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/inline.out.css",
+		"/Users/james2doyle/Git/rework-mixins/lib/display-inline.js",
+		"/Users/james2doyle/Git/rework-mixins/lib/display-flex.js",
+		"/Users/james2doyle/Git/rework-mixins/lib/fixed.js",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/ellipsis.out.css",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/ellipsis.css",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/border-radius.out.css",
+		"/Users/james2doyle/Git/rework-mixins/lib/size.js",
+		"/Users/james2doyle/Git/rework-mixins/lib/placeholder.js",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/placeholder.css",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/placeholder.out.css",
+		"/Users/james2doyle/Git/rework-mixins/lib/border-radius.js",
+		"/Users/james2doyle/Git/rework-mixins/test/cases/inline.css",
+		"/Applications/MAMP/htdocs/bizinc-theme/gruntfile.js",
+		"/Applications/MAMP/htdocs/bizinc-theme/package.json",
+		"/Applications/MAMP/htdocs/bizinc-theme/index.html",
+		"/Applications/MAMP/htdocs/bizinc-theme/styl/01_variables.styl",
+		"/Applications/MAMP/htdocs/bizinc-theme/styl/03_typo.styl",
+		"/Applications/MAMP/htdocs/bizinc-theme/styl/14_site.styl",
+		"/Users/james2doyle/Downloads/kubeless/less/kube.less",
+		"/Users/james2doyle/Downloads/kubeless/less/master.less",
+		"/Users/james2doyle/Downloads/kubeless/less/188_responsive-forms.less",
+		"/Applications/MAMP/htdocs/bizinc-theme/styl/02_base.styl",
+		"/Applications/MAMP/htdocs/bizinc-theme/css/demo.css",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#8/meta.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/partials/footer.html",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#7/page.php",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#6/single.php",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#5/single-portfolio.php",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#4/portfolio.php",
+		"/Applications/MAMP/htdocs/warpaint-pyro/system/cms/modules/sitemap/controllers/sitemap.php",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/partials/home-slider.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/layouts/home.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/layouts/portfolio.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/partials/portfolio-meta.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/partials/menu.html",
+		"/Users/james2doyle/Library/Application Support/Sublime Text 3/Packages/Build Systems/marked.sh",
+		"/Users/james2doyle/Library/Application Support/Sublime Text 3/Packages/Build Systems/markdown.sublime-build",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/css/z_site.styl",
+		"/Users/james2doyle/Desktop/README.md",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/css/__variables.styl",
+		"/Users/james2doyle/Library/Application Support/Sublime Text 3/Packages/Build Systems/uglifyJS.sublime-build",
+		"/Users/james2doyle/Library/Application Support/Sublime Text 3/Packages/Build Systems/stylus.sublime-build",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/plugins/warpaint.php",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#3/.htaccess",
+		"/Applications/MAMP/htdocs/warpaint-pyro/system/cms/modules/blog/controllers/blog.php",
+		"/Applications/MAMP/htdocs/warpaint-pyro/system/cms/plugins/user.php",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/dist/blog.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/system/cms/modules/streams_core/field_types/user/field.user.php",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#2/.htaccess",
+		"/Users/james2doyle/Library/Caches/com.binarynights.ForkLift2/#0/index.html",
+		"/Applications/MAMP/htdocs/warpaint-pyro/system/cms/plugins/theme.php",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/dist/blog2.html",
+		"/Applications/MAMP/htdocs/craft/craft/templates/index.html",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/css/forms.styl",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/js/main.js",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/gruntfile.js",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/views/partials/header.html",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/dist/js/scripts.js",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/dist/js/scripts.min.js",
+		"/Applications/MAMP/htdocs/warpaint-pyro/addons/shared_addons/themes/warpaint/js/scripts.js",
+		"/Applications/MAMP/htdocs/warpaint-nimbul/dojs.sh"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/james2doyle/Downloads/kubeless/styl",
+			"/Applications/MAMP/Library",
+			"/Applications/MAMP/bin",
+			"/Applications/MAMP"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1%;",
+			"#ddd",
+			"#1c7ab4",
+			"#90af45",
+			"#ef6465",
+			"#f3c835",
+			"#e3e3e3",
+			"#f3f4f5",
+			"#333",
+			"color: #999;",
+			"#999",
+			"f5f5f5",
+			"#ddd",
+			"#eee",
+			"#ddd",
+			"5ca9e4",
+			"14px",
+			"#",
+			".table-",
+			"#ccc",
+			"#444",
+			"#888",
+			"rcount",
+			".a",
+			"size",
+			".cf",
+			"rcount",
+			"())\n",
+			"width:",
+			"{",
+			"}",
+			";",
+			"/* =",
+			"\n-----------------------------------------------------------------------------",
+			"-----------------------------------------------------------------------------",
+			";)",
+			"#fff",
+			"#000",
+			"&:",
+			".clearfixing();",
+			".clearfixing;",
+			".clearfixing;, .clearfixing();",
+			".clearf",
+			"//",
+			"// ",
+			"//",
+			".clearf",
+			".clearfixing",
+			"//",
+			"var-",
+			"1%;",
+			".blocks-2",
+			"math(math(",
+			"-bas",
+			"-",
+			"var-baseL",
+			"var-base",
+			"var-baseLeHeight",
+			"var-baseFontSize * var-baseLeHeight",
+			"/*.clearfixing",
+			";)",
+			"&",
+			".clearfixing",
+			"&:",
+			".clearfixing();",
+			".clearfixing;",
+			"// ",
+			"ready.css",
+			".clearfixing",
+			"// ",
+			"@",
+			".block(",
+			"margin-",
+			"@",
+			"margin-",
+			"var(num)",
+			"@",
+			".block(",
+			".block",
+			" { ",
+			".box-sizing(",
+			"@",
+			".column",
+			"left: ",
+			".column-push",
+			".columns-push",
+			"var(num)",
+			" { ",
+			"width:",
+			".column",
+			".column(",
+			"var(factor)",
+			"var(num)",
+			"var(factor)",
+			"var(num)",
+			"var(factor)",
+			"var(num)",
+			"var(factor)",
+			"var(num)",
+			"var(factor)",
+			"var(num)",
+			"var(factor)",
+			"var(num)",
+			"var(factor)",
+			" { ",
+			"@",
+			"var(baseLine)/var(em)",
+			"@",
+			".box-sizing(",
+			"@",
+			"@baseLine/@em",
+			"math(math(",
+			"var(baseLine)/var(em)",
+			"var(baseLine)/var(em) - ",
+			"@",
+			".label-",
+			"opacity: ",
+			".opacity",
+			"@",
+			"#f3c835",
+			"#1c7ab4",
+			"#90af45",
+			"#f48a30",
+			"#ef6465",
+			"@",
+			".gradient(",
+			".opacity",
+			"@"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/*",
+			"",
+			"var(colorWhite)",
+			"var(colorBlack)",
+			"clear: fix;",
+			"			\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 419.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/dorework.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "styl/01_variables.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1866,
+								1866
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1249.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/style.temp.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"project": "kube-styl.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/colourfunrun/wp-content/themes/bhinneka/css/style-cfr.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
