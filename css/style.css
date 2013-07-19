@@ -305,10 +305,6 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-.group {
-  clear: fix;
-}
-
 body {
   background: #fff;
   color: #333;
@@ -860,10 +856,6 @@ fieldset.forms-row {
   margin-bottom: 0;
 }
 
-.forms-columnar {
-  clear: fix;
-}
-
 .forms-columnar input[type="range"],
 .forms-columnar input[type="file"],
 .forms-columnar select[multiple="multiple"] {
@@ -1364,7 +1356,6 @@ a.label-yellow:hover {
 .btn-group {
   display: inline-block;
   margin-right: 2px;
-  clear: fix;
   vertical-align: bottom;
 }
 
@@ -1501,7 +1492,7 @@ input.big {
 }
 
 .highlight {
-  background-color: #ffff9e !important;
+  background-color: #fff !important;
 }
 
 .close {
@@ -1527,6 +1518,112 @@ input.big {
   filter: alpha(opacity=100);
 }
 
+.clearfix,
+.group,
+.forms-columnar,
+.btn-group,
+.image-container,
+.nav-h,
+.nav-g,
+.nav-h ul,
+.nav-g ul,
+.breadcrumbs,
+.breadcrumbs ul,
+.nav-tabs,
+.nav-tabs ul,
+.nav-pills,
+.nav-pills ul,
+.pagination,
+.units-container,
+.units-row-end,
+.units-row,
+.blocks-2,
+.blocks-3,
+.blocks-4,
+.blocks-5,
+.blocks-6 {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after,
+.group:before,
+.group:after,
+.forms-columnar:before,
+.forms-columnar:after,
+.btn-group:before,
+.btn-group:after,
+.image-container:before,
+.image-container:after,
+.nav-h:before,
+.nav-g:before,
+.nav-h:after,
+.nav-g:after,
+.nav-h ul:before,
+.nav-g ul:before,
+.nav-h ul:after,
+.nav-g ul:after,
+.breadcrumbs:before,
+.breadcrumbs:after,
+.breadcrumbs ul:before,
+.breadcrumbs ul:after,
+.nav-tabs:before,
+.nav-tabs:after,
+.nav-tabs ul:before,
+.nav-tabs ul:after,
+.nav-pills:before,
+.nav-pills:after,
+.nav-pills ul:before,
+.nav-pills ul:after,
+.pagination:before,
+.pagination:after,
+.units-container:before,
+.units-row-end:before,
+.units-row:before,
+.units-container:after,
+.units-row-end:after,
+.units-row:after,
+.blocks-2:before,
+.blocks-3:before,
+.blocks-4:before,
+.blocks-5:before,
+.blocks-6:before,
+.blocks-2:after,
+.blocks-3:after,
+.blocks-4:after,
+.blocks-5:after,
+.blocks-6:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after,
+.group:after,
+.forms-columnar:after,
+.btn-group:after,
+.image-container:after,
+.nav-h:after,
+.nav-g:after,
+.nav-h ul:after,
+.nav-g ul:after,
+.breadcrumbs:after,
+.breadcrumbs ul:after,
+.nav-tabs:after,
+.nav-tabs ul:after,
+.nav-pills:after,
+.nav-pills ul:after,
+.pagination:after,
+.units-container:after,
+.units-row-end:after,
+.units-row:after,
+.blocks-2:after,
+.blocks-3:after,
+.blocks-4:after,
+.blocks-5:after,
+.blocks-6:after {
+  clear: both;
+}
+
 .image-left {
   float: left;
   margin: 0 1em 1em 0;
@@ -1547,10 +1644,6 @@ input.big {
   text-align: center;
 }
 
-.image-container {
-  clear: fix;
-}
-
 .image-content {
   overflow: hidden;
 }
@@ -1558,14 +1651,12 @@ input.big {
 .nav-h,
 .nav-g {
   margin-bottom: 1.6500000000000001em;
-  clear: fix;
 }
 
 .nav-h ul,
 .nav-g ul {
   list-style: none;
   margin: 0;
-  clear: fix;
 }
 
 .nav-h ul li,
@@ -1706,7 +1797,6 @@ input.big {
 
 .breadcrumbs {
   margin-bottom: 1.6500000000000001em;
-  clear: fix;
 }
 
 .breadcrumbs ul {
@@ -1714,7 +1804,6 @@ input.big {
   color: #999;
   list-style: none;
   margin: 0;
-  clear: fix;
 }
 
 .breadcrumbs ul li {
@@ -1758,13 +1847,11 @@ input.big {
 .nav-tabs {
   border-bottom: 1px solid #e3e3e3;
   margin-bottom: 1.6500000000000001em;
-  clear: fix;
 }
 
 .nav-tabs ul {
   list-style: none;
   margin: 0;
-  clear: fix;
 }
 
 .nav-tabs ul li {
@@ -1825,13 +1912,11 @@ input.big {
 
 .nav-pills {
   margin-bottom: 1.1500000000000001em;
-  clear: fix;
 }
 
 .nav-pills ul {
   list-style: none;
   margin: 0;
-  clear: fix;
 }
 
 .nav-pills ul li {
@@ -1879,7 +1964,6 @@ input.big {
   left: -9px;
   margin-left: 0;
   list-style: none;
-  clear: fix;
 }
 
 .pagination li {
@@ -1971,12 +2055,6 @@ input.big {
   position: absolute;
   right: 3px;
   top: 6px;
-}
-
-.units-container,
-.units-row-end,
-.units-row {
-  clear: fix;
 }
 
 .units-container {
@@ -2381,7 +2459,6 @@ select.unit-100 {
   padding-left: 0;
   list-style: none;
   margin-left: -3%;
-  clear: fix;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;

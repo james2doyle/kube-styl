@@ -68,7 +68,7 @@ input.big {
 	color: var(colorRed);
 }
 .highlight {
-	background-color: var(colorWhite)f9e !important;
+	background-color: var(colorWhite) !important;
 }
 .close {
 	padding: 4px 6px;
@@ -86,4 +86,18 @@ input.big {
 .close:hover {
 	color: var(colorBlack);
 	opacity: 1;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
 }

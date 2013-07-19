@@ -2,11 +2,11 @@
 .units-container,
 .units-row-end,
 .units-row {
-  clear: fix;
+  inherit: .clearfix;
 }
 .units-container { /* it's the trick to not collapse padding-top in the child element */
 	padding-top: 1px;
-    margin-top: -1px;
+  margin-top: -1px;
 }
 .units-container,
 .units-row-end,
@@ -34,11 +34,17 @@
 .width-20, .unit-20   { width: 20%;   }
 
 input.width-100,
-input.unit-100    { width: 98.6%; }
+input.unit-100    {
+	width: 98.6%;
+}
 textarea.width-100,
-textarea.unit-100 { width: 98.8%; }
+textarea.unit-100 {
+	width: 98.8%;
+}
 select.width-100,
-select.unit-100   { width: 99.4%; }
+select.unit-100   {
+	width: 99.4%;
+}
 
 .width-100,
 .width-80,
