@@ -1,8 +1,8 @@
 :root {
-  var-baseFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-  var-headingsFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-  var-inputFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-  var-buttonFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  var-baseFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-headingsFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-inputFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-buttonFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-codeFontFamily: Consolas, Monaco, monospace, sans-serif;
   var-blockquotePsuedo: 6em;
   var-colorBody: #333;
@@ -10,7 +10,7 @@
   var-baseFontSize: 14;
   var-baseLineHeight: 1.65;
   var-baseLine: 23.1;
-  var-gridWidth: 1000;
+  var-gridWidth: 1400;
   var-gridGutterWidth: 30;
   var-listsLeft: 2em;
   var-columnarWidth: 150px;
@@ -310,7 +310,7 @@ body {
   color: #333;
   font-size: 0.875em;
   line-height: 1.6500000000000001em;
-  font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -329,7 +329,7 @@ h4,
 h5,
 h6 {
   color: #222;
-  font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -932,7 +932,7 @@ textarea,
 select[multiple="multiple"] {
   position: relative;
   z-index: 2;
-  font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 1px solid #ccc;
   margin: 0;
   padding: 3px 2px;
@@ -1179,7 +1179,7 @@ a.label-yellow:hover {
   text-decoration: none;
   color: #000;
   border-radius: 2px;
-  font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 1px solid rgb(204, 204, 204);
   border-bottom-color: rgb(179, 179, 179);
   line-height: 1;
@@ -2057,6 +2057,11 @@ input.big {
   top: 6px;
 }
 
+.wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .units-container {
   padding-top: 1px;
   margin-top: -1px;
@@ -2222,7 +2227,7 @@ select.unit-100 {
 .units-row-end .unit-25,
 .units-row-end .unit-20 {
   float: left;
-  margin-left: 3%;
+  margin-left: 2.142857142857143%;
 }
 
 .units-row .unit-80:first-child,
@@ -2253,57 +2258,57 @@ select.unit-100 {
 
 .units-row .unit-80,
 .units-row-end .unit-80 {
-  width: 79.4%;
+  width: 79.57142857142857%;
 }
 
 .units-row .unit-75,
 .units-row-end .unit-75 {
-  width: 74.25%;
+  width: 74.46428571428572%;
 }
 
 .units-row .unit-70,
 .units-row-end .unit-70 {
-  width: 69.1%;
+  width: 69.35714285714286%;
 }
 
 .units-row .unit-66,
 .units-row-end .unit-66 {
-  width: 65.66666666666666%;
+  width: 65.95238095238095%;
 }
 
 .units-row .unit-60,
 .units-row-end .unit-60 {
-  width: 58.800000000000004%;
+  width: 59.14285714285714%;
 }
 
 .units-row .unit-50,
 .units-row-end .unit-50 {
-  width: 48.5%;
+  width: 48.92857142857143%;
 }
 
 .units-row .unit-40,
 .units-row-end .unit-40 {
-  width: 38.2%;
+  width: 38.714285714285715%;
 }
 
 .units-row .unit-30,
 .units-row-end .unit-30 {
-  width: 27.9%;
+  width: 28.5%;
 }
 
 .units-row .unit-33,
 .units-row-end .unit-33 {
-  width: 31.333333333333332%;
+  width: 31.904761904761905%;
 }
 
 .units-row .unit-25,
 .units-row-end .unit-25 {
-  width: 22.75%;
+  width: 23.392857142857142%;
 }
 
 .units-row .unit-20,
 .units-row-end .unit-20 {
-  width: 17.6%;
+  width: 18.285714285714285%;
 }
 
 .unit-push-80,
@@ -2321,47 +2326,47 @@ select.unit-100 {
 }
 
 .unit-push-30 {
-  left: 30.9%;
+  left: 30.642857142857142%;
 }
 
 .unit-push-80 {
-  left: 82.4%;
+  left: 81.71428571428571%;
 }
 
 .unit-push-75 {
-  left: 77.25%;
+  left: 76.60714285714286%;
 }
 
 .unit-push-70 {
-  left: 72.1%;
+  left: 71.5%;
 }
 
 .unit-push-66 {
-  left: 68.66666666666666%;
+  left: 68.09523809523809%;
 }
 
 .unit-push-60 {
-  left: 61.800000000000004%;
+  left: 61.285714285714285%;
 }
 
 .unit-push-50 {
-  left: 51.5%;
+  left: 51.07142857142858%;
 }
 
 .unit-push-40 {
-  left: 41.2%;
+  left: 40.85714285714286%;
 }
 
 .unit-push-33 {
-  left: 34.33333333333333%;
+  left: 34.04761904761905%;
 }
 
 .unit-push-25 {
-  left: 25.75%;
+  left: 25.535714285714285%;
 }
 
 .unit-push-20 {
-  left: 20.6%;
+  left: 20.428571428571427%;
 }
 
 .unit-push-right {
@@ -2458,7 +2463,7 @@ select.unit-100 {
 .blocks-6 {
   padding-left: 0;
   list-style: none;
-  margin-left: -3%;
+  margin-left: -2.142857142857143%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -2474,7 +2479,7 @@ select.unit-100 {
   height: auto;
   float: left;
   margin-bottom: 1.6500000000000001em;
-  margin-left: 3%;
+  margin-left: 2.142857142857143%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -2483,23 +2488,23 @@ select.unit-100 {
 }
 
 .blocks-2 > li {
-  width: 47%;
+  width: 47.857142857142854%;
 }
 
 .blocks-3 > li {
-  width: 30.333333333333332%;
+  width: 31.190476190476193%;
 }
 
 .blocks-4 > li {
-  width: 22%;
+  width: 22.857142857142858%;
 }
 
 .blocks-5 > li {
-  width: 17%;
+  width: 17.857142857142858%;
 }
 
 .blocks-6 > li {
-  width: 13.666666666666666%;
+  width: 14.523809523809524%;
 }
 
 .block-first {
@@ -2612,8 +2617,8 @@ audio {
   .units-mobile-50 .unit-25,
   .units-mobile-50 .unit-20 {
     float: left;
-    margin-left: 3%;
-    width: 48.5%;
+    margin-left: 2.142857142857143%;
+    width: 48.92857142857143%;
   }
 
   .units-mobile-50 .unit-80:first-child,
@@ -2653,20 +2658,20 @@ audio {
   .blocks-mobile-50 > li,
   .blocks-mobile-33 > li {
     float: left;
-    margin-left: 3%;
+    margin-left: 2.142857142857143%;
   }
 
   .blocks-mobile-33,
   .blocks-mobile-50 {
-    margin-left: -3%;
+    margin-left: -2.142857142857143%;
   }
 
   .blocks-mobile-50 > li {
-    width: 47%;
+    width: 47.857142857142854%;
   }
 
   .blocks-mobile-33 > li {
-    width: 30.333333333333332%;
+    width: 31.190476190476193%;
   }
 }
 
