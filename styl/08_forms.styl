@@ -131,7 +131,7 @@ fieldset.forms-row {
 }
 .forms-section {
 	font-weight: bold;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid var(formsSectionBorder);
 	padding: 0 0 10px 0;
 	margin-bottom: 1em;
 	line-height: 1;
@@ -163,10 +163,10 @@ select[multiple="multiple"] {
 	position: relative;
 	z-index: 2;
 	font-family: var(inputFontFamily);
-	border: 1px solid #ccc;
+	border: 1px solid var(inputBorderColor);
 	margin: 0;
 	padding: 3px 2px;
-	background-color: white;
+	background-color: var(inputBackground);
 	color: var(colorBody);
 	font-size: 1em;
 	line-height: 1;
@@ -196,28 +196,28 @@ input.input-error,
 textarea.input-error,
 select.input-error,
 .input-error {
-	border-color: #da3e5a;
+	border-color: var(colorRed);
 	box-shadow: 0 0 0 2px rgba(218, 62, 90, .3),0 1px 2px rgba(0, 0, 0, .2) inset;
 }
 input.input-success,
 textarea.input-success,
 select.input-success,
 .input-success  {
-	border-color: #18a011 ;
+	border-color: var(colorGreen);
 	box-shadow: 0 0 0 2px rgba(24, 160, 17, .3),0 1px 2px rgba(0, 0, 0, .2) inset;
 }
 input.input-gray,
 textarea.input-gray,
 select.input-gray,
 .input-gray {
-	border-color: #ccc;
+	border-color: var(inputBorderColor);
 	box-shadow: 0 0 0 2px rgba(204, 204, 204, .3),0 1px 2px rgba(0, 0, 0, .2) inset;
 }
 
 input:focus,
 textarea:focus {
 	outline: none;
-	border-color: #5ca9e4;
+	border-color: var(inputFocusColor);
 	box-shadow: 0 0 0 2px rgba(70, 161, 231, .3), 0 1px 2px rgba(0, 0, 0, .2) inset;
 }
 
@@ -231,12 +231,12 @@ input[type="search"] {
 .input-append,
 .input-prepend {
 	display: inline-block;
-	background-color: #eee;
+	background-color: var(inputAppendPrependBackground);
 	height: 23px;
-	border: 1px solid #ccc;
+	border: 1px solid var(inputAppendPrependBorder);
 	margin: 0;
 	padding: 1px 8px;
-	color: #333;
+	color: var(inputAppendPrependColor);
 	font-size: 1em;
 	line-height: 23px;
 }
@@ -248,6 +248,3 @@ input[type="search"] {
 	z-index: 1;
 	margin-left: -1px;
 }
-
-/* Placeholder */
-/*.placeholder(var(colorGrayLight));*/
