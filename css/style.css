@@ -1002,7 +1002,7 @@ fieldset.forms-row {
 
 .forms-push {
   position: relative;
-  padding-left: 150px + 20px;
+  padding-left: 170px;
 }
 
 .forms-section {
@@ -1186,7 +1186,6 @@ input[type="search"] {
 a.color-white:focus,
 a.color-white:hover {
   color: rgb(191, 191, 191);
-  color: rgba(#fff, .6);
 }
 
 a.color-green:focus,
@@ -1297,7 +1296,7 @@ a.label-yellow:hover {
   background-image: -ms-linear-gradient(top, rgb(252, 252, 252), rgb(224, 224, 224));
   background-image: -o-linear-gradient(top, rgb(252, 252, 252), rgb(224, 224, 224));
   background-image: linear-gradient(top, rgb(252, 252, 252), rgb(224, 224, 224));
-  text-shadow: 0 1px 0 rgba(#fff, 1);
+  text-shadow: 0 1px 0 #fff;
   box-shadow: none;
 }
 
