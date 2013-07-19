@@ -47,7 +47,7 @@
 	margin: 0;
 }
 .nav-v ul li {
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid var(navBorderColor);
 }
 .nav-v ul li ul {
 	margin-left: 2em;
@@ -78,7 +78,7 @@
 
 /* Stacked */
 .nav-stacked ul {
-	border: 1px solid #eee;
+	border: 1px solid var(navBorderColor);
 	border-bottom: 0;
 }
 .nav-stacked ul li a,
@@ -86,7 +86,7 @@
 	padding: 5px 10px;
 }
 .nav-stacked ul li a:hover {
-	background-color: #f5f5f5;
+	background-color: var(navStackedAHoverBackground);
 }
 
 /* Stats */
@@ -139,7 +139,7 @@
 }
 .breadcrumbs ul {
 	font-size: .9em;
-	color: #999;
+	color: var(navMainColor);
 	list-style: none;
 	margin: 0;
 	clear: fix;
@@ -169,7 +169,7 @@
 	text-decoration: none;
 }
 .breadcrumbs ul li a.active {
-	color: #999;
+	color: var(navMainColor);
 }
 .breadcrumbs ul li a:hover {
 	color: var(colorBlack);
@@ -178,7 +178,7 @@
 
 /* Tabs */
 .nav-tabs {
-	border-bottom: 1px solid #e3e3e3;
+	border-bottom: 1px solid var(navTabsBorderColor);
 	margin-bottom: math(var(baseLine)/var(em));
 	clear: fix;
 }
@@ -213,7 +213,7 @@
 	margin-top: -2px;
 	position: relative;
 	padding: 8px 11px 9px 11px;
-	border: 1px solid #ddd;
+	border: 1px solid var(navBorderColorLight);
 	border-bottom: 1px solid var(colorWhite);
 	bottom: -1px;
 }
@@ -224,7 +224,7 @@
 /* Vertical tabs */
 .nav-tabs-v {
 	border: none;
-	border-right: 1px solid #e3e3e3;
+	border-right: 1px solid var(navTabsBorderColor);
 }
 .nav-tabs-v ul li {
 	float: none;
@@ -233,7 +233,7 @@
 	margin-top: 0;
 	bottom: 0;
 	margin-right: -3px;
-	border: 1px solid #ddd;
+	border: 1px solid var(navBorderColorLight);
 	border-right: 1px solid var(colorWhite);
 }
 
@@ -262,7 +262,7 @@
 .nav-pills ul li a {
 	color: var(colorGray);
 	text-decoration: none;
-	background-color: #f3f4f5;
+	background-color: var(navPillsBackground);
 }
 .nav-pills ul li a:hover {
 	color: var(colorGrayDark);
@@ -273,7 +273,7 @@
 .nav-pills ul li span {
 	color: var(colorGray);
 	padding: 5px 14px;
-	border: 1px solid #ddd;
+	border: 1px solid var(navBorderColorLight);
 	background: none;
 }
 .nav-pills ul li .active,
@@ -304,12 +304,12 @@
 	text-decoration: none;
 }
 .pagination span {
-	border: 1px solid #ddd;
+	border: 1px solid var(navBorderColorLight);
 }
 .pagination li a:focus,
 .pagination li a:hover {
 	text-decoration: underline;
-	background-color: #333;
+	background-color: var(paginationBackgroundColor);
 	color: var(colorWhite);
 }
 
@@ -322,12 +322,12 @@
 .pagination li.pagination-newest span {
 	padding: 5px 15px;
 	border-radius: 2em;
-	border: 1px solid #ddd;
+	border: 1px solid var(navBorderColorLight);
 }
 .pagination li.pagination-older span,
 .pagination li.pagination-newest span {
-	border-color: #eee;
-	color: #999;
+	border-color: var(navBorderColor);
+	color: var(navMainColor);
 }
 .pagination li.pagination-pull {
 	float: right;
