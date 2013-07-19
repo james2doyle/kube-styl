@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['styl/*.css'],
+        files: ['styl/*.styl'],
         tasks: ['clean', 'concat', 'styl', 'shell', 'growl:css'],
         options: {
           nospawn: true
