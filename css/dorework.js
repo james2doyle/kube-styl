@@ -15,10 +15,9 @@ var css = fs.readFileSync(__dirname + '/style.temp.css', 'utf8');
  */
 
  var res = rework(css)
-  // .use(vars())
-  // .use(math())
-  // .use(shade())
-  .use(clearfix())
+  .use(vars())
+  .use(math())
+  .use(shade())
   .toString();
 
 /**

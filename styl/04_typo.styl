@@ -67,7 +67,7 @@ hgroup {
 }
 .subheader {
 	font-weight: 300;
-	color: #888;
+	color: var(colorGrayLight);
 }
 
 h1.subheader {
@@ -143,8 +143,8 @@ blockquote {
 }
 
 blockquote:before {
-	color: #ddd;
-	font-size: 6em;
+	color: lighten(var(colorGray, 15%));
+	font-size: var(blockquotePsuedo);
 	position: absolute;
 	content: '\00AB';
 	left: 0;
@@ -220,7 +220,7 @@ samp {
 }
 pre {
 	font-size: 90%;
-	color: #444;
+	color: var(colorGrayDark);
 	background: var(codeBackgroundColor);
 	padding: .85em;
 	overflow: auto;
@@ -230,7 +230,7 @@ code {
 	display: inline-block;
 	line-height: 1;
 	background: var(codeBackgroundColor);
-	border: 1px solid #ddd;
+	border: 1px solid darken(var(codeBackgroundColor), 10%);
 }
 kbd {
 	padding: 2px 6px 1px 6px;
@@ -238,11 +238,11 @@ kbd {
 	display: inline-block;
 	border-radius: .3em;
 	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2),0 0 0 1px white inset;
-	background-color: #fafafa;
-	border-color: #ccc #ccc white;
+	background-color: var(codeBackgroundColor);
+	border-color: darken(var(codeBackgroundColor), 5%) darken(var(codeBackgroundColor), 5%) white;
 	border-style: solid solid none;
 	border-width: 1px 1px medium;
-	color: #444;
+	color: var(colorGrayDark);
 	font-weight: normal;
 	white-space: nowrap;
 }

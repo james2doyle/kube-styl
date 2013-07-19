@@ -1,8 +1,8 @@
 {
   "name": "kube-styl",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "James Doyle james2doyle@gmail.com",
-  "description": "kube-styl",
+  "description": "The Kube CSS Framework converted from LESS to Styl/Rework. Based on v2.",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
