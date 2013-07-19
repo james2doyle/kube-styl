@@ -1,8 +1,8 @@
 :root {
-  var-baseFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  var-headingsFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  var-inputFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  var-buttonFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-headingsFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-inputFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-buttonFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-codeFontFamily: Consolas, Monaco, monospace, sans-serif;
   var-blockquotePsuedo: 6em;
   var-colorBody: #333;
@@ -416,7 +416,7 @@ body {
   color: #333;
   font-size: 0.875em;
   line-height: 1.6500000000000001em;
-  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -435,7 +435,7 @@ h4,
 h5,
 h6 {
   color: #222;
-  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -1038,7 +1038,7 @@ textarea,
 select[multiple="multiple"] {
   position: relative;
   z-index: 2;
-  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 1px solid #ccc;
   margin: 0;
   padding: 3px 2px;
@@ -1284,7 +1284,7 @@ a.label-yellow:hover {
   text-decoration: none;
   color: #000;
   border-radius: 2px;
-  font-family: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 1px solid rgb(204, 204, 204);
   border-bottom-color: rgb(179, 179, 179);
   line-height: 1;
