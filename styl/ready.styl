@@ -1,6 +1,6 @@
 :root {
   /* Font */
-  var-baseFontFamily: 'PT Sans', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  var-baseFontFamily: 'Actor', "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-headingsFontFamily: var(baseFontFamily);
   var-inputFontFamily: var(baseFontFamily);
   var-buttonFontFamily: var(baseFontFamily);
@@ -18,7 +18,7 @@
   var-baseLine: 23.1;
 
   /* Grid */
-  var-gridWidth: 1000;
+  var-gridWidth: 1400;
   var-gridGutterWidth: 30;
 
   /* Misc sizes */
@@ -1750,6 +1750,11 @@ input.big {
 	right: 3px;
 	top: 6px;
 }
+.wrap {
+	max-width: var(gridWidth)px;
+	margin: 0 auto;
+}
+
 /*Grid*/
 .units-container,
 .units-row-end,
