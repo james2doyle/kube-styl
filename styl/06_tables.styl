@@ -32,11 +32,11 @@ table.table-simple caption {
 }
 table.table-bordered td,
 table.table-bordered th {
-  border: 1px solid #ddd;
+  border: 1px solid var(tableBordered);
 }
 table.table-stroked td,
 table.table-stroked th {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(tableStroked);
 }
 table.table-striped tbody tr:nth-child(odd) td {
   background-color: var(colorStripedTable);
@@ -57,11 +57,11 @@ table.table-hovered thead tr:hover th {
 }
 .table-container::-webkit-scrollbar {
 	-webkit-appearance: none;
-	width: 14px;
-	height: 14px;
+	width: var(tableContainer);
+	height: var(tableContainer);
 }
 .table-container::-webkit-scrollbar-thumb {
-	border-radius: 8px;
+	border-radius: var(tableContainerRadius);
 	border: 3px solid var(colorWhite);
-	background-color: rgba(0, 0, 0, .3);
+	background-color: var(tableContainerBackground);
 }
