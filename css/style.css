@@ -76,6 +76,112 @@
   var-em: 14em;
 }
 
+.clearfix,
+.group,
+.forms-columnar,
+.btn-group,
+.image-container,
+.nav-h,
+.nav-g,
+.nav-h ul,
+.nav-g ul,
+.breadcrumbs,
+.breadcrumbs ul,
+.nav-tabs,
+.nav-tabs ul,
+.nav-pills,
+.nav-pills ul,
+.pagination,
+.units-container,
+.units-row-end,
+.units-row,
+.blocks-2,
+.blocks-3,
+.blocks-4,
+.blocks-5,
+.blocks-6 {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after,
+.group:before,
+.group:after,
+.forms-columnar:before,
+.forms-columnar:after,
+.btn-group:before,
+.btn-group:after,
+.image-container:before,
+.image-container:after,
+.nav-h:before,
+.nav-g:before,
+.nav-h:after,
+.nav-g:after,
+.nav-h ul:before,
+.nav-g ul:before,
+.nav-h ul:after,
+.nav-g ul:after,
+.breadcrumbs:before,
+.breadcrumbs:after,
+.breadcrumbs ul:before,
+.breadcrumbs ul:after,
+.nav-tabs:before,
+.nav-tabs:after,
+.nav-tabs ul:before,
+.nav-tabs ul:after,
+.nav-pills:before,
+.nav-pills:after,
+.nav-pills ul:before,
+.nav-pills ul:after,
+.pagination:before,
+.pagination:after,
+.units-container:before,
+.units-row-end:before,
+.units-row:before,
+.units-container:after,
+.units-row-end:after,
+.units-row:after,
+.blocks-2:before,
+.blocks-3:before,
+.blocks-4:before,
+.blocks-5:before,
+.blocks-6:before,
+.blocks-2:after,
+.blocks-3:after,
+.blocks-4:after,
+.blocks-5:after,
+.blocks-6:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after,
+.group:after,
+.forms-columnar:after,
+.btn-group:after,
+.image-container:after,
+.nav-h:after,
+.nav-g:after,
+.nav-h ul:after,
+.nav-g ul:after,
+.breadcrumbs:after,
+.breadcrumbs ul:after,
+.nav-tabs:after,
+.nav-tabs ul:after,
+.nav-pills:after,
+.nav-pills ul:after,
+.pagination:after,
+.units-container:after,
+.units-row-end:after,
+.units-row:after,
+.blocks-2:after,
+.blocks-3:after,
+.blocks-4:after,
+.blocks-5:after,
+.blocks-6:after {
+  clear: both;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1518,112 +1624,6 @@ input.big {
   filter: alpha(opacity=100);
 }
 
-.clearfix,
-.group,
-.forms-columnar,
-.btn-group,
-.image-container,
-.nav-h,
-.nav-g,
-.nav-h ul,
-.nav-g ul,
-.breadcrumbs,
-.breadcrumbs ul,
-.nav-tabs,
-.nav-tabs ul,
-.nav-pills,
-.nav-pills ul,
-.pagination,
-.units-container,
-.units-row-end,
-.units-row,
-.blocks-2,
-.blocks-3,
-.blocks-4,
-.blocks-5,
-.blocks-6 {
-  *zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after,
-.group:before,
-.group:after,
-.forms-columnar:before,
-.forms-columnar:after,
-.btn-group:before,
-.btn-group:after,
-.image-container:before,
-.image-container:after,
-.nav-h:before,
-.nav-g:before,
-.nav-h:after,
-.nav-g:after,
-.nav-h ul:before,
-.nav-g ul:before,
-.nav-h ul:after,
-.nav-g ul:after,
-.breadcrumbs:before,
-.breadcrumbs:after,
-.breadcrumbs ul:before,
-.breadcrumbs ul:after,
-.nav-tabs:before,
-.nav-tabs:after,
-.nav-tabs ul:before,
-.nav-tabs ul:after,
-.nav-pills:before,
-.nav-pills:after,
-.nav-pills ul:before,
-.nav-pills ul:after,
-.pagination:before,
-.pagination:after,
-.units-container:before,
-.units-row-end:before,
-.units-row:before,
-.units-container:after,
-.units-row-end:after,
-.units-row:after,
-.blocks-2:before,
-.blocks-3:before,
-.blocks-4:before,
-.blocks-5:before,
-.blocks-6:before,
-.blocks-2:after,
-.blocks-3:after,
-.blocks-4:after,
-.blocks-5:after,
-.blocks-6:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after,
-.group:after,
-.forms-columnar:after,
-.btn-group:after,
-.image-container:after,
-.nav-h:after,
-.nav-g:after,
-.nav-h ul:after,
-.nav-g ul:after,
-.breadcrumbs:after,
-.breadcrumbs ul:after,
-.nav-tabs:after,
-.nav-tabs ul:after,
-.nav-pills:after,
-.nav-pills ul:after,
-.pagination:after,
-.units-container:after,
-.units-row-end:after,
-.units-row:after,
-.blocks-2:after,
-.blocks-3:after,
-.blocks-4:after,
-.blocks-5:after,
-.blocks-6:after {
-  clear: both;
-}
-
 .image-left {
   float: left;
   margin: 0 1em 1em 0;
@@ -2023,7 +2023,6 @@ input.big {
   border: 1px solid rgb(168, 168, 168);
   border-radius: 5px;
   margin-bottom: 1.6500000000000001em;
-  color: rgb(191, 191, 191);
   background-color: rgb(190, 190, 190);
 }
 

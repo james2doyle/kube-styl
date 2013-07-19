@@ -110,6 +110,20 @@
   var-em: 14em; /* outputting ems, e.g. 14/var-em */
 
 }
+/* micro clearfix */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
 /*Reset*/
 html {
   font-family: sans-serif;
@@ -1342,20 +1356,6 @@ input.big {
 	opacity: 1;
 }
 
-.clearfix {
-  *zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
 /*Images*/
 .image-left {
 	float: left;
@@ -1722,7 +1722,6 @@ input.big {
 	border: 1px solid lighten(var(colorGrayLight), 15);
 	border-radius: 5px;
 	margin-bottom: math(var(baseLine)/var(em));
-	color: darken(var(colorWhite), 25);
 	background-color: lighten(var(colorGrayLight), 36);
 }
 .message-error {
