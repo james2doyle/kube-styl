@@ -10,12 +10,12 @@
 	font-weight: 500;
 	font-size: .85em;
 	background-image: linear-gradient(top, darken(var(colorWhite), 1), darken(var(colorWhite), 12));
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+	text-shadow: 0 1px 0 rgba(var(colorWhite), 1);
 	box-shadow: none;
 }
 .btn:hover {
 	color: var(colorBlack);
-	opacity: 0.70;
+	opacity: 0.7;
 }
 .btn-black {
 	border-color: var(colorBlack);
@@ -98,20 +98,20 @@
 .btn[disabled],
 .btn-disabled,
 .btn-disabled:hover {
-	opacity: 100;
+	opacity: 1;
 	background: darken(var(colorWhite), 18);
 	border: 1px solid darken(var(colorWhite), 30);
 	text-shadow: 0 1px 1px var(colorWhite);
 }
 .btn-active,
 .btn-active:hover {
-	color: #666;
+	color: var(btnActiveColor);
 }
 .btn.disabled,
 .btn[disabled],
 .btn-disabled,
 .btn-disabled:hover {
-	color: #999;
+	color: var(btnDisabledColor);
 }
 
 .btn:focus .halflings,
@@ -119,11 +119,11 @@
 	color: var(colorGrayDark);
 }
 .btn-disabled:hover .halflings {
-	color: #999;
+	color: var(btnDisabledColor);
 }
 
 .btn-active .halflings {
-	color: #555;
+	color: var(btnActiveColor);
 }
 
 /* Group  */
