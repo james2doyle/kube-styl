@@ -1527,16 +1527,18 @@ a.label-yellow:hover {
 .btn-group > .btn.btn-round:first-child,
 .btn-group > .input-search:first-child {
   border-radius: 15px 0 0 15px;
+  margin-top: -1px;
 }
 
 .btn-group > .btn.btn-round:last-child,
 .btn-group > .input-search:last-child {
   border-radius: 0 15px 15px 0;
+  margin-top: -1px;
 }
 
 .btn-append,
 .btn-group .btn {
-  padding: 6px 1.1em 7px 1.1em;
+  padding: 6px 1.1em 6px 1.1em;
 }
 
 .btn-append {
