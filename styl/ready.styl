@@ -18,6 +18,7 @@
   var-baseLine: 23.1;
 
   /* Grid */
+  var-gridWrapperPadding: 0 1em;
   var-gridWidth: 1400;
   var-gridGutterWidth: 30;
 
@@ -1022,6 +1023,41 @@ a.color-error:focus,
 a.color-error:hover  {
 	color: var(colorBlack);
 }
+
+/*Background*/
+.bg-black {
+	background-color: var(colorBlack);
+}
+.bg-gray-dark {
+	background-color: var(colorGrayDark);
+}
+.bg-gray {
+	background-color: var(colorGray);
+}
+.bg-gray-light {
+	background-color: var(colorGrayLight);
+}
+.bg-white {
+	background-color: var(colorWhite);
+}
+.bg-red {
+	background-color: var(colorRed);
+}
+.bg-green {
+	background-color: var(colorGreen);
+}
+.bg-orange {
+	background-color: var(colorOrange);
+}
+.bg-green {
+	background-color: var(colorGreen);
+}
+.bg-blue {
+	background-color: var(colorBlue);
+}
+.bg-yellow {
+	background-color: var(colorYellow);
+}
 .label,
 .label-badge {
 	border-radius: 2em;
@@ -1751,6 +1787,8 @@ input.big {
 .wrap {
 	max-width: var(gridWidth)px;
 	margin: 0 auto;
+	padding: var(gridWrapperPadding);
+	overflow: hidden;
 }
 
 /*Grid*/

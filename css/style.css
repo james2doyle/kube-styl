@@ -10,6 +10,7 @@
   var-baseFontSize: 14;
   var-baseLineHeight: 1.65;
   var-baseLine: 23.1;
+  var-gridWrapperPadding: 0 1em;
   var-gridWidth: 1400;
   var-gridGutterWidth: 30;
   var-listsLeft: 2em;
@@ -1197,6 +1198,50 @@ a.color-error:hover {
   color: #000;
 }
 
+.bg-black {
+  background-color: #000;
+}
+
+.bg-gray-dark {
+  background-color: #555;
+}
+
+.bg-gray {
+  background-color: #777;
+}
+
+.bg-gray-light {
+  background-color: #999;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-red {
+  background-color: #ef6465;
+}
+
+.bg-green {
+  background-color: #90af45;
+}
+
+.bg-orange {
+  background-color: #f48a30;
+}
+
+.bg-green {
+  background-color: #90af45;
+}
+
+.bg-blue {
+  background-color: #1c7ab4;
+}
+
+.bg-yellow {
+  background-color: #f3c835;
+}
+
 .label,
 .label-badge {
   border-radius: 2em;
@@ -2058,6 +2103,8 @@ input.big {
 .wrap {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 1em;
+  overflow: hidden;
 }
 
 .units-container {
