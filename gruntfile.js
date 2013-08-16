@@ -1,32 +1,32 @@
+var rework = require('rework'),
+vars = require('rework-vars'),
+math = require('rework-math'),
+shade = require('rework-shade');
 module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    clean: ['styl/ready.styl', 'css/style.css'],
-    concat: {
-      options: {
-        separator: '\n'
-      },
-      dist: {
-        src: ['styl/*.styl'],
-        dest: 'styl/ready.styl'
-      }
-    },
     styl: {
       options: {
         // compress to remove comments
-        compress: true
+        compress: false,
+        configure: function (styl) {
+          styl.use(vars());
+          styl.use(math());
+          styl.use(shade());
+        }
       },
       dist: {
         files: {
-          'css/style.temp.css': 'styl/ready.styl'
+          'css/style.css': 'styl/**/*.styl'
         }
       }
     },
-    // grunt-rework needs a rework! So run a script instead
-    shell: {
-      doRework: {
-        command: 'node css/dorework.js'
+    cssmin: {
+      combine: {
+        files: {
+          'css/style.min.css': ['css/style.css', '!css/style.min.css']
+        }
       }
     },
     uglify: {
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
     watch: {
       styles: {
         files: ['styl/*.styl'],
-        tasks: ['clean', 'concat', 'styl', 'shell', 'growl:css'],
+        tasks: ['styl', 'growl:css'],
         options: {
           nospawn: true
         },
@@ -68,15 +68,14 @@ module.exports = function(grunt) {
     },
   });
 
-  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-growl');
   grunt.loadNpmTasks('grunt-styl');
 
-  grunt.registerTask('default', ['clean', 'concat', 'styl', 'shell', 'uglify', 'growl:done']);
-  grunt.registerTask('css', ['clean', 'concat', 'styl', 'shell', 'growl:css']);
+  grunt.registerTask('default', ['styl', 'cssmin', 'uglify', 'growl:done']);
+  grunt.registerTask('css', ['styl', 'cssmin', 'growl:css']);
   grunt.registerTask('js', ['uglify', 'growl:js']);
 };
