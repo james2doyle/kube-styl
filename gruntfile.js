@@ -25,14 +25,14 @@ module.exports = function(grunt) {
     cssmin: {
       combine: {
         files: {
-          'css/style.min.css': ['css/style.css', '!css/style.min.css']
+          'css/style.min.css': ['css/**/*.css', '!css/style.min.css']
         }
       }
     },
     uglify: {
       main: {
         files: {
-          'js/scripts.min.js': ['js/kube.buttons.js', 'js/kube.tabs.js']
+          'js/scripts.min.js': ['js/**/*.js', '!js/scripts.min.js']
         }
       }
     },
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['styl/*.styl'],
+        files: ['styl/**/*.styl'],
         tasks: ['styl', 'growl:css'],
         options: {
           nospawn: true
