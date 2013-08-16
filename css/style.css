@@ -1,24 +1,32 @@
 :root {
+  /* Font */
   var-baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-headingsFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-inputFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-buttonFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
   var-codeFontFamily: Consolas, Monaco, monospace, sans-serif;
   var-blockquotePsuedo: 6em;
+  /* Base color */
   var-colorBody: #333;
   var-colorHeadings: #222;
+  /* Type */
   var-baseFontSize: 14;
   var-baseLineHeight: 1.65;
+  /* var-baseLine: math(var(baseFontSize) * var(baseLineHeight)); */
   var-baseLine: 23.1;
+  /* Grid */
   var-gridWrapperPadding: 0 1em;
   var-gridWidth: 1400;
   var-gridGutterWidth: 30;
+  /* Misc sizes */
   var-listsLeft: 2em;
   var-columnarWidth: 150px;
   var-columnarMargin: 20px;
+  /* Tables */
   var-tableContainer: 14px;
   var-tableContainerRadius: 8px;
   var-tableContainerBackground: rgba(0, 0, 0, 0.3);
+  /* Forms */
   var-inputBackground: #fff;
   var-inputBorderColor: #ccc;
   var-inputFocusColor: #5ca9e4;
@@ -26,9 +34,11 @@
   var-inputAppendPrependBorder: rgb(226, 226, 226);
   var-inputAppendPrependColor: #333;
   var-formsSectionBorder: #ccc;
+  /* Font sizes */
   var-bigFontSize: 1.2em;
   var-smallFontSize: 0.85em;
   var-superSmallFontSize: 0.7em;
+  /* Colors */
   var-colorBlack: #000;
   var-colorGrayDark: #555;
   var-colorGray: #777;
@@ -39,14 +49,17 @@
   var-colorGreen: #90af45;
   var-colorBlue: #1c7ab4;
   var-colorYellow: #f3c835;
+  /* FloatingImages */
   var-floatingMargin: 1em;
   var-floatingBackgroundColor: #fff;
   var-floatingPadding: 0;
   var-floatingBorder: none;
   var-fieldsBottom: 1.65em;
+  /* LinkColor */
   var-colorLink: #369;
   var-colorLinkHover: rgb(46, 92, 138);
   var-navMainColor: #999;
+  /* BackgroundColor */
   var-markBackgroundColor: #fe5;
   var-tfootBackgroundColor: #f2f2f2;
   var-colorStripedTable: #f5f5f5;
@@ -54,6 +67,7 @@
   var-navStackedAHoverBackground: #f5f5f5;
   var-paginationBackgroundColor: #555;
   var-navPillsBackground: #f5f5f5;
+  /* Borders */
   var-tableBordered: #ddd;
   var-tableStroked: #ccc;
   var-cellBorder: 1px solid #eee;
@@ -62,9 +76,12 @@
   var-navBorderColor: #ccc;
   var-navBorderColorLight: #ddd;
   var-navTabsBorderColor: #e3e3e3;
+  /* Labels */
   var-labelBorderColor: #ddd;
+  /* Buttons */
   var-btnActiveColor: #777;
   var-btnDisabledColor: #999;
+  /* Code */
   var-codeBackgroundColor: #f5f5f5;
   var-com: #999;
   var-lit: #195f91;
@@ -74,8 +91,12 @@
   var-kwd: #000;
   var-typ: #555;
   var-pln: #5890AD;
+  /* Util */
   var-em: 14em;
+  /* outputting ems, e.g. 14/var-em */
 }
+
+/* micro clearfix */
 
 .clearfix,
 .group,
@@ -182,6 +203,8 @@
 .blocks-6:after {
   clear: both;
 }
+
+/*Reset*/
 
 html {
   font-family: sans-serif;
@@ -294,6 +317,8 @@ select {
   text-transform: none;
 }
 
+/* Structure tags */
+
 article,
 aside,
 details,
@@ -320,6 +345,8 @@ audio:not([controls]) {
   height: 0;
 }
 
+/* To prevent some browsers from inserting quotes on q and p */
+
 blockquote,
 q {
   quotes: none;
@@ -332,6 +359,8 @@ q:after {
   content: '';
   content: none;
 }
+
+/* Table reset */
 
 table {
   border-collapse: collapse;
@@ -352,11 +381,15 @@ thead td {
   vertical-align: bottom;
 }
 
+/* Image inside */
+
 a img,
 th img,
 td img {
   vertical-align: top;
 }
+
+/* Webkit browsers reset margin */
 
 button,
 input,
@@ -370,16 +403,22 @@ textarea {
   vertical-align: top;
 }
 
+/* Normalize buttons in IE */
+
 button {
   width: auto;
   overflow: visible;
 }
+
+/* Hand cursor on clickable controls */
 
 input[type=button],
 input[type=submit],
 button {
   cursor: pointer;
 }
+
+/* Trick with vertical align for radio and checkbox  */
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -390,6 +429,8 @@ input[type="checkbox"] {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* Normalize search fields */
 
 input[type="search"] {
   -webkit-appearance: textfield;
@@ -405,12 +446,18 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
+/* Horizontal rule reset  */
+
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ddd;
 }
+
+/* Clearfix */
+
+/*Typography*/
 
 body {
   background: #fff;
@@ -759,6 +806,8 @@ legend {
   color: #5890AD;
 }
 
+/*Tables*/
+
 tfoot th,
 tfoot td {
   background-color: #f2f2f2;
@@ -815,6 +864,8 @@ table.table-hovered thead tr:hover th {
   background-color: #f6f6f6;
 }
 
+/* Responsive Tables */
+
 .table-container {
   width: 100%;
   overflow: auto;
@@ -837,6 +888,10 @@ table.table-hovered thead tr:hover th {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*Lists*/
+
+/* Simple */
+
 .lists-simple {
   margin-left: 0;
   list-style: none;
@@ -847,6 +902,8 @@ table.table-hovered thead tr:hover th {
   list-style: none;
   margin-left: 1.5em;
 }
+
+/* Dash */
 
 .lists-dash {
   margin-left: 18px;
@@ -862,6 +919,8 @@ table.table-hovered thead tr:hover th {
   margin-left: -10px;
   left: -7px;
 }
+
+/*Forms*/
 
 .forms label {
   display: block;
@@ -1069,6 +1128,8 @@ select {
   margin-bottom: 0 !important;
 }
 
+/* Errors and Success */
+
 .error,
 .success {
   margin-left: 5px;
@@ -1138,6 +1199,8 @@ input[type="search"] {
   margin-left: -1px;
 }
 
+/*Colors*/
+
 .color-black {
   color: #000;
 }
@@ -1184,6 +1247,8 @@ input[type="search"] {
   color: #f3c835;
 }
 
+/* Link Colors Hover */
+
 a.color-white:focus,
 a.color-white:hover {
   color: rgb(191, 191, 191);
@@ -1197,6 +1262,8 @@ a.color-error:focus,
 a.color-error:hover {
   color: #000;
 }
+
+/*Background*/
 
 .bg-black {
   background-color: #000;
@@ -1503,6 +1570,8 @@ a.label-yellow:hover {
   color: #777;
 }
 
+/* Group  */
+
 .btn-group {
   display: inline-block;
   margin-right: 2px;
@@ -1541,12 +1610,16 @@ a.label-yellow:hover {
   padding: 6px 1.1em 6px 1.1em;
 }
 
+/* Append  */
+
 .btn-append {
   position: relative;
   top: -1px;
   margin-left: -2px;
   border-radius: 0 4px 4px 0;
 }
+
+/* FF fix */
 
 @-moz-document url-prefix("http:")  {
   input[type=submit].btn::-moz-focus-inner,
@@ -1555,6 +1628,8 @@ a.label-yellow:hover {
     padding: 0;
   }
 }
+
+/*Goodies*/
 
 .first-letter::first-letter {
   font-size: 4em;
@@ -1670,6 +1745,8 @@ input.big {
   filter: alpha(opacity=100);
 }
 
+/*Images*/
+
 .image-left {
   float: left;
   margin: 0 1em 1em 0;
@@ -1693,6 +1770,10 @@ input.big {
 .image-content {
   overflow: hidden;
 }
+
+/*Navs*/
+
+/* Horizontal */
 
 .nav-h,
 .nav-g {
@@ -1733,6 +1814,8 @@ input.big {
 .nav-g ul li span {
   color: #999;
 }
+
+/* Vertical */
 
 .nav-v {
   margin-bottom: 1.6500000000000001em;
@@ -1780,6 +1863,8 @@ input.big {
   color: #999;
 }
 
+/* Stacked */
+
 .nav-stacked ul {
   border: 1px solid #ccc;
   border-bottom: 0;
@@ -1793,6 +1878,8 @@ input.big {
 .nav-stacked ul li a:hover {
   background-color: #f5f5f5;
 }
+
+/* Stats */
 
 .nav-stats li {
   position: relative;
@@ -1840,6 +1927,8 @@ input.big {
 .nav-v h6:first-child {
   margin-top: 0;
 }
+
+/* Breadcrumbs */
 
 .breadcrumbs {
   margin-bottom: 1.6500000000000001em;
@@ -1890,6 +1979,8 @@ input.big {
   text-decoration: underline;
 }
 
+/* Tabs */
+
 .nav-tabs {
   border-bottom: 1px solid #e3e3e3;
   margin-bottom: 1.6500000000000001em;
@@ -1939,6 +2030,8 @@ input.big {
   cursor: default;
 }
 
+/* Vertical tabs */
+
 .nav-tabs-v {
   border: none;
   border-right: 1px solid #e3e3e3;
@@ -1955,6 +2048,8 @@ input.big {
   border: 1px solid #ddd;
   border-right: 1px solid #fff;
 }
+
+/* Pills */
 
 .nav-pills {
   margin-bottom: 1.1500000000000001em;
@@ -2004,6 +2099,8 @@ input.big {
   cursor: default;
   text-decoration: none;
 }
+
+/*Pagination*/
 
 .pagination {
   position: relative;
@@ -2109,7 +2206,10 @@ input.big {
   overflow: hidden;
 }
 
+/*Grid*/
+
 .units-container {
+  /* it's the trick to not collapse padding-top in the child element */
   padding-top: 1px;
   margin-top: -1px;
 }
@@ -2503,6 +2603,8 @@ select.unit-100 {
   width: 20%;
 }
 
+/*Blocks*/
+
 .blocks-2,
 .blocks-3,
 .blocks-4,
@@ -2558,11 +2660,15 @@ select.unit-100 {
   clear: both;
 }
 
+/*Tablet and Desktop*/
+
 @media (min-width: 768px) {
   .desktop-hide {
     display: none;
   }
 }
+
+/*Mobile (Portrait)*/
 
 @media only screen and (max-width: 767px) {
   .mobile-text-centered {
@@ -2573,6 +2679,10 @@ select.unit-100 {
     display: none;
   }
 }
+
+/*Media*/
+
+/* Responsive images and other embedded objects */
 
 img,
 video {
@@ -2591,6 +2701,7 @@ audio {
 .video-wrapper {
   height: 0;
   padding-bottom: 56.25%;
+  /* ratio 16:9 */
   position: relative;
   margin-bottom: 1.6500000000000001em;
 }
@@ -2604,6 +2715,8 @@ audio {
   width: 100%;
   height: 100%;
 }
+
+/*Mobile (Portrait)*/
 
 @media only screen and (max-width: 767px) {
   .units-row .unit-80,
@@ -2682,6 +2795,8 @@ audio {
   }
 }
 
+/*Mobile (Portrait)*/
+
 @media only screen and (max-width: 767px) {
   .blocks-2,
   .blocks-3,
@@ -2721,6 +2836,8 @@ audio {
     width: 31.190476190476193%;
   }
 }
+
+/*Mobile (Portrait)*/
 
 @media only screen and (max-width: 767px) {
   .nav-h,
@@ -2771,6 +2888,8 @@ audio {
     margin-right: 0;
   }
 }
+
+/*Mobile (Portrait)*/
 
 @media only screen and (max-width: 767px) {
   .forms-columnar label {
